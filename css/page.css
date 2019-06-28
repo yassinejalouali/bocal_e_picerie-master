@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,400,300');
+
+@font-face {
+  font-family: "Selfie";
+  src: url('../fonts/Selfie_Regular.otf') format("opentype");
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 120px;
+
+}
+
+
+.page-container-1 .image-1 {
+  width: 94%;
+}
+
+.page-container-1 .text {
+
+
+  text-align          : center;
+  line-height         : 25.0px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.span1 {
+  font-family         : "Selfie", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  line-height         : 38.0px;
+}
+.page-container-1 .span2 {
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  letter-spacing      : 3.0px;
+  line-height         : 29.0px;
+}
+.page-container-1 .text .span3 {
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  letter-spacing      : 3.0px;
+  line-height         : 29.0px;
+}
+
+
+.btn {
+    background-color    : rgba(249, 234, 136, 1.0);
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    font-family: "Montserrat", Helvetica, Arial, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12.0px;
+    color: rgba(60, 60, 60, 1.0);
+    text-align: center;
+    letter-spacing: 2.0px;
+    line-height: 12.0px;
+}
+
+
+.page-container-1 .image-2 {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/*PAGE 2*/
+
+.page-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* height: 100%; */
+}
+
+
+.page-container-2 .titre{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* height: 100%; */
+}
+
+
+.page-container-2 .titre .dulocalaubocal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+  height: 90px;
+  font-family         : Selfie, Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(29, 29, 29, 1.0);
+  margin-left: 52px;
+}
+
+
+
+.page-container-2 .titre .touslesproduits{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  height: 90px;
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(29, 29, 29, 1.0);
+  text-align          : right;
+  letter-spacing      : 2.0px;
+  margin-right: 42px;
+}
+
+
+
+.page-container-2 .images{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.page-container-2 .images .images-1{
+  position: relative;
+  margin-left: 55px;
+  width: 50%;
+}
+
+
+.page-container-2 .image .images-1 .image-1{
+  width: 100%;
+}
+
+
+.text-image {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 4.1px;
+  line-height         : 20.0px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6)
+}
+
+
+.page-container-2 .images .images-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-right: 12px;
+}
+
+
+.page-container-2 .images .images-2 .sub-images-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+
+.page-container-2 .images .images-2 .sub-images-2 .sub-sub-images-2 {
+  position: relative;
+  width: 100%;
+  margin: 1%;
+}
+
+.page-container-2 .images .images-2 .sub-images-2 .sub-sub-images-2 .image-1{
+  width: 93%;
+
+
+}
+
+
+.touteslesrecettes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 90px;
+  font-family         : Montserrat, Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(29, 29, 29, 1.0);
+  text-align          : right;
+  letter-spacing      : 2.0px;
+  margin-right: 42px;
+}
+
+.images-saison {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.lasaisondubocal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+
+
+.btn2{
+  background-color: rgba(19, 111, 99, 1.0);
+  height: 52px;
+  width: 436px;
+  border-radius: 26px;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  letter-spacing: 2.57px;
+  line-height: 22.0px;
+}
+
+
+
+.page-container-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100%;
+  height: 674px;
+  margin-top: 120px;
+  background-image: url('../img/landing-page-rectangle.png')
+}
+
+
+.mailer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 30px;
+}
+
+
+.text-email{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25.0px;
+  color: rgba(19, 111, 99, 1.0);
+  text-align: center;
+  line-height: 30.0px;
+}
+
+
+
+.email-input {
+  background-color: rgba(255,255,255);
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(163, 163, 163, 1.0);
+  text-align: left;
+  line-height: 26.0px;
+  border: solid 1px #e2e2e2;
+  border-radius: 50px;
+  /* margin-top: -16px; */
+  width: 318px;
+  height: 58px;
+  padding-left: 15px;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.nos-services {
+  width: 25%;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(0, 0, 0, 1.0);
+  text-align: center;
+  line-height: 14.0px;
+}
+
+
+
+.mentions-legales {
+  opacity: 0.44;
+font-family: "Montserrat", Helvetica, Arial, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 14.0px;
+color: rgba(0, 0, 0, 1.0);
+text-align: center;
+line-height: 18.0px;
+}
